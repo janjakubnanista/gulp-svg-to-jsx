@@ -1,0 +1,25 @@
+{
+  "name": "gulp-svg-to-jsx",
+  "version": "0.0.1",
+  "description": "Gulp wrapper for svg-to-jsx",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:janjakubnanista/gulp-svg-to-jsx.git"
+  },
+  "keywords": [
+    "gulp",
+    "svg",
+    "jsx",
+    "react"
+  ],
+  "author": "Ján Jakub Naništa <jan.jakub.nanista@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janjakubnanista/gulp-svg-to-jsx/issues"
+  },
+  "homepage": "https://github.com/janjakubnanista/gulp-svg-to-jsx"
+}
