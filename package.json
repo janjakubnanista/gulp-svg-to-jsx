@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/janjakubnanista/gulp-svg-to-jsx",
   "dependencies": {
+    "gulp-util": "^3.0.6",
     "readable-stream": "^2.0.2",
     "svg-to-jsx": "0.0.4"
   },
