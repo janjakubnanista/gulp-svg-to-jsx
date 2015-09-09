@@ -1,6 +1,6 @@
 {
   "name": "gulp-svg-to-jsx",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gulp wrapper for svg-to-jsx",
   "main": "index.js",
   "scripts": {
