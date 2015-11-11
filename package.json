@@ -3,9 +3,6 @@
   "version": "0.0.2",
   "description": "Gulp wrapper for svg-to-jsx",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha test"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:janjakubnanista/gulp-svg-to-jsx.git"
