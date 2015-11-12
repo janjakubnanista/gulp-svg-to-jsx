@@ -20,9 +20,7 @@ module.exports = function(options) {
         }
 
         var contents = file.contents.toString();
-        svgtojsx(contents, options, function(error, result) {
-            if (error) return callback(error);
-
+        svgtojsx(contents, options).then(function(result) {
             var output = new gutil.File({
                 contents: new Buffer(result),
                 path: file.path
@@ -30,7 +28,7 @@ module.exports = function(options) {
 
             this.push(output);
             callback();
-        }.bind(this));
+        }.bind(this), callback);
     }
 
     return through.obj(transform);
