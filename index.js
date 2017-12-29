@@ -20,7 +20,7 @@ module.exports = function(options) {
         }
 
         var contents = file.contents.toString();
-        svgtojsx(contents, options).then(function(result) {
+        svgtojsx(contents, options, undefined).then(function(result) {
             var output = new gutil.File({
                 contents: new Buffer(result),
                 path: file.path
